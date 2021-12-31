@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.nav-links{
+  width:50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.link{
+  list-style: none;
+}
+
+.main{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 90px 0px 90px 0;
+  background-color: rgb(252,252,252);
+}
+
+.sub-main{
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  width: 35%;
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  padding-top:30px ;
+  border-radius: 60px;
+  background-color: white;
+}
+
+input{
+  width: 300px;
+  height: 50px;
+  border-radius: 60px;
+  box-shadow: inset 0px 0px 25px 0px #888;
+}
+
+.imgs{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+.container-image{
+  background-color: rgb(223,221,221);
+  border-radius: 150px;
+  align-items:center;
+  display: flex;
+  height: 115px;
+  width: 115px;  
+}
+
+.profile{
+  height: 130px;
+  width: 130px;
+  border-radius: 130px;
+}
+
+.LHeader{
+  text-align: center;
+}
+
+.email{
+  height: 25px;
+  width: 35px;
+  position: absolute;
+  padding: 15px 0 0 15px;
+  border: none;
+  outline: none;
+}
+
+.fill{
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+.second-input{
+  padding-top: 20px;
+}
+
+button{
+  width: 260px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: rgb(241, 72, 6);
+  color: white;
+  box-shadow: inset 0px 0px 25px 0px rgb(14, 14, 15);
+  font-size: 25px;
+  border: none;
+}
+
+.login-btn{
+  padding-top: 20px;
+}
+
+.reg-link{
+  padding-top: 10px;
+}
+
+.mail-id{
+  padding-top: 20px;
+}
+
+.plist{
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+select {
+  appearance: none;
+  outline: 0;
+  background: rgb(92, 2, 110);
+  background-image: none;
+  border: 1px solid black;
+  padding-top: 200px;
+}
+
+.select {
+  position: relative;
+  top: 10px;
+  display: block;
+  left: 30px;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #2C3E50;
+  overflow: hidden;
+  border-radius: .25em;
+}
+
+select {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 1em;
+  color: #fff;
+  cursor: pointer;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+  background: #34495E;
+  pointer-events: none;
+}
+
+.select:hover::after {
+  color: #F39C12;
+}
